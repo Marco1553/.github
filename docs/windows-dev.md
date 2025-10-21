@@ -34,14 +34,14 @@ The first time you launch a newly installed Linux distribution, a console window
 
 You can either:
 - use **Windows Terminal** *(recommended)* and select **Ubuntu** in the dropdown list
-- from a **Powershell** / **Command Prompt**, type `wsl.exe`
-- from the Start Menu, click on the linux distribution you installed (e.g. Ubuntu)
+- from a **PowerShell** / **Command Prompt**, type `wsl.exe`
+- from the Start Menu, click on the Linux distribution you installed (e.g. Ubuntu)
 
 You'll be prompted to choose a username and password the first time.
 
 ## Enable Docker Integration
 
-In order to use Docker inside WSL2, we need to enable Docker integration in Desktop Desktop.
+In order to use Docker inside WSL2, we need to enable Docker integration in Docker Desktop.
 
 1. Open **Docker Desktop** and go to **Settings**.
 2. Under the **Resources** > **WSL Integration** tab, make sure that `Enable integration with my default WSL distro` is enabled. If you installed additional distros from the Microsoft Store, make sure to enable them as well.

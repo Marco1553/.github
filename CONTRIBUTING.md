@@ -124,8 +124,8 @@ gh repo clone john-doe/rfc2html
 
 While you could *technically* work directly on the main branch, it is best practice to create a branch for the feature / fix you are working on. It also makes it much easier to fast-forward your forks main branch to the match the source repository.
 
-1. From a terminal window, nagivate to the project directory you cloned earlier.
-2. First, make sure you are on the `main` branch.:
+1. From a terminal window, navigate to the project directory you cloned earlier.
+2. First, make sure you are on the `main` branch:
 ```sh
 git checkout main
 ```
@@ -261,7 +261,7 @@ If you prefer to use the command line:
 * Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
 * Limit the first line *(title)* to 72 characters or less
 * Reference issues and pull requests liberally after the first line
-* When only changing documentation, include `[ci skip]` in the commit message *(after the first line (title) when possible)*
+* When only changing documentation, include `[skip ci]` in the commit message *(after the first line (title) when possible)*
 * Start the commit message with one of the following keywords (see [Conventional Commits](https://www.conventionalcommits.org/) specification):
   * `chore`: Tool changes, configuration changes and changes to things that do not actually go into production
   * `ci:` Changes that affect the build system or external dependencies
